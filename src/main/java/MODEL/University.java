@@ -1,7 +1,9 @@
+package MODEL;
+
 public class University {
     String id, fullName, abbreviation, studyProfile;
     double yearOfFoundation;
-    //StudyProfile mainProfile;
+    //MODEL.StudyProfile mainProfile;
 
     public University() {
     }
@@ -32,6 +34,27 @@ public class University {
 
     public void setYearOfFoundation(double yearOfFoundation) {
         this.yearOfFoundation = yearOfFoundation;
+    }
+
+
+    public String getId() {
+        return id;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public String getAbbreviation() {
+        return abbreviation;
+    }
+
+    public String getStudyProfile() {
+        return studyProfile;
+    }
+
+    public double getYearOfFoundation() {
+        return yearOfFoundation;
     }
 
     @Override

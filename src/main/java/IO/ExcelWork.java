@@ -1,20 +1,23 @@
+package IO;
+
+import MODEL.Student;
+import MODEL.University;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
+
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import static org.apache.poi.ss.usermodel.CellType.NUMERIC;
-import static org.apache.poi.ss.usermodel.CellType.STRING;
-
 public class ExcelWork {
 /*
 реализован класс с методами для чтения информации из файла
-и сбора коллекций соответствующих экземпляров классов Student и University;
+и сбора коллекций соответствующих экземпляров классов MODEL.Student и MODEL.University;
  */
 
     //File file = new File("C:\\0.MyFile\\Java_Project\\Maven_Gradle_01\\src\\main\\resources\\universityInfo.xlsx");

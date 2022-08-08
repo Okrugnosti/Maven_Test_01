@@ -1,3 +1,5 @@
+package MODEL;
+
 public enum StudyProfile {
 
     MANAGEMENT("Управление и администрирование проектов"),

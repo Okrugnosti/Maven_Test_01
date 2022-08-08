@@ -1,3 +1,5 @@
+package MODEL;
+
 public class Student {
 
     String fullName, universityId;
@@ -51,7 +53,7 @@ public class Student {
         return
                 "\n" +
                         "Name :" + fullName + "\n" +
-                        "University: " + universityId + "\n" +
+                        "MODEL.University: " + universityId + "\n" +
                         "CourseNumber: " + currentCourseNumber + "\n" +
                         "avgExamScore :" + avgExamScore + "\n\n";
     }
